@@ -9,8 +9,8 @@ services:
       - TZ=Etc/UTC
       - WEBUI_PORT=8080
     volumes:
-      - /media/notcoderguy/DATA/Docker:/config
-      - /media/notcoderguy/DATA/jellyfin/media:/downloads
+      - /media/notcoderguy/DATA/Docker/jellyfin:/config
+      - /media/notcoderguy/DATA/Docker/jellyfin/media:/downloads
     ports:
       - 8080:8080
       - 6881:6881
